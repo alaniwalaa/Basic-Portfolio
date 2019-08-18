@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Contact Me</title>
+
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+
+    <!-- google font -->
+    <link href="https://fonts.googleapis.com/css?family=Kalam|Pacifico|Shadows+Into+Light&display=swap"
+        rel="stylesheet">
+
+    <!-- materialize -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+</head>
+
+<body>
+    <!-- the background picture -->
+    <img style="width: 100%; height: auto; opacity: 0.1" src="assets/images/SanDiego.jpg" alt="San Diego">
+
+    <!-- contact me form -->
+    <section class="mb-4" style="position: absolute; left: 5%; top: 20%; text-align: center; width: 120% ">
+
+        <!--Section heading-->
+        <h2 class="h1-responsive font-weight-bold text-center my-4"
+            style="position: relative; left: -40%; top: auto; text-align: left">Contact Me</h2>
+
+        <!--Section description-->
+
+        <div class="row">
+
+            <!--Grid column-->
+            <div class="col-md-9 mb-md-0 mb-5">
+                <form id="contact-form" name="contact-form" action="mail.php" method="POST">
+
+                    <!--Grid row-->
+                    <div class="row">
+
+                        <!--Grid column-->
+                        <div class="col-md-6">
+                            <div class="md-form mb-0" style="text-align: left">
+                                <input type="text" id="name" name="name" class="form-control">
+                                <label for="name" class="">Your Name</label>
+                            </div>
+                        </div>
+                        <!--Grid column-->
+
+                        <!--Grid column-->
+                        <div class="col-md-6">
+                            <div class="md-form mb-0" style="text-align: left">
+                                <input type="text" id="email" name="email" class="form-control">
+                                <label for="email" class="">Your Email</label>
+                            </div>
+                        </div>
+                        <!--Grid column-->
+
+                    </div>
+                    <!--Grid row-->
+
+                    <!--Grid row-->
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="md-form mb-0" style="text-align: left">
+                                <input type="text" id="subject" name="subject" class="form-control">
+                                <label for="subject" class="">Subject</label>
+                            </div>
+                        </div>
+                    </div>
+                    <!--Grid row-->
+
+                    <!--Grid row-->
+                    <div class="row">
+
+                        <!--Grid column-->
+                        <div class="col-md-12">
+
+                            <div class="md-form" style="text-align: left">
+                                <textarea type="text" id="message" name="message" rows="2"
+                                    class="form-control md-textarea"></textarea>
+                                <label for="message">Your message</label>
+                            </div>
+
+                        </div>
+                    </div>
+                    <!--Grid row-->
+
+                </form>
+
+                <div class="text-center text-md-left"><br><br>
+                    <a class="btn btn-primary" onclick="document.getElementById('contact-form').submit();">SEND</a>
+                </div>
+                <div class="status"></div>
+            </div>
+            <!--Grid column-->
+
+
+
+        </div>
+
+    </section>
+    <!--Section: Contact v.2-->
+
+    <!-- the bottom bar -->
+    <div
+        style="width: 100%; height: 50px; background: rgb(151, 201, 77); position: relative; bottom: 100px; display: inline-block">
+        <div>
+
+            <div style="position: relative; left: 25%; display: inline-block; size: 20rem">
+                <a href="education&career.html"><i class="material-icons" style="color: rgb(58, 55, 55)">school</i></a>
+            </div>
+            <div style=" position: relative; left: 50%;  display: inline-block; size: 20rem">
+                <a href="index.html"><i class="large material-icons" style="color: rgb(58, 55, 55)">person</i></a>
+            </div>
+            <div style="position: relative; left: 75%; display: inline-block; size: 20rem">
+                <a href="mywork.html"><i class="large material-icons" style="color: rgb(58, 55, 55)">work</i></a>
+            </div>
+
+        </div>
+    </div>
+
+</body>
+
+</html>
