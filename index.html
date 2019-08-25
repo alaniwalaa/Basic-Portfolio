@@ -5,7 +5,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-
     <title>MY RESUME</title>
 
     <!-- link to css file -->
@@ -16,53 +15,40 @@
         rel="stylesheet">
 
     <!-- materialize -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-
 
 </head>
 
 <body>
-    <div>
-        <div class="row">
-            <!-- the background picture -->
-            <img style=" object-fit: cover; width: 100%; height: 100%; opacity: 0.1" src="assets/images/SanDiego.jpg"
-                alt="San Diego">
-                <div class="col-md-12">
-            <h1 style="font-family: 'Kalam'; color: darkslategrey;font-size: 40px; position: absolute; align-content: center; top: 0; left: 45%;">
-                AlAni, Walaa </h1>
-                </div>
-            <div class="col-md-4">
-                <!-- my profile picture -->
-                <img src="assets/images/myProfilePic.jpg" alt="alani,w"
-                    style="width: 200px; height:200px; position: absolute; top: 35%; left: 15%">
-            </div>
-            <div class="col-md-8">
-                <!-- the body text -->
-                <div
-                    style="font-family: 'Kalam'; font-size: 25px; color: darkslategrey; position: absolute; top: 25%; left: 35%;">
-                    <h3><em> Summary: </em></h3>
-                    <p>Efficient and self motivated who works under pressure and posses </p>
-                    <p>employee/customer relations skills with a broad knowledge of diversified </p>
-                    <p>administrative duties. Implementing and following up plans/activities to achieve </p>
-                    <p>agency goals with the capability of meeting deadlines. Creative </p>
-                    <p>problem solving and a team work player with high communications skills.</p>
-                </div>
-            </div>
-            <!-- the bottom block -->
-            <div class="col-md-12">
-            <ul style="width: 100%; height: 50px; background: rgb(151, 201, 77); position: relative; bottom: 100px; display: inline-block">
-                <li style="position: relative; left: 25%; display: inline-block; size: 40rem">
-                    <a href="career.html"><i class="material-icons" style="color: rgb(58, 55, 55)">school</i></a>
-                </li>
-                <li style=" position: relative; left: 50%;  display: inline-block; size: 70rem">
-                    <a href="emailme.html"><i class="large material-icons" style="color: rgb(58, 55, 55)">email</i></a>
-                </li>
-                <li style="position: relative; left: 75%; display: inline-block; size: 70rem">
-                    <a href="mywork.html"><i class="large material-icons" style="color: rgb(58, 55, 55)">work</i></a>
-                </li>
-            </ul>
+    <div class="row">
+        <h1 class="col s12 left-align headline" style="color: rgb(19, 17, 17)"> AlAni, Walaa </h1>
+
+        <div class="col s12 m8 l2 offset-l1 offset-m2 valign-wrapper">
+            <!-- my profile picture -->
+            <img class="circle responsive-img" id="portfolioPic" src="assets/images/myProfilePic.jpg" alt="alani,w">
         </div>
+        <!-- the body text -->
+        <div class="col s12 m8 l8 offset-m2" id="about">
+            <h3><em> Summary: </em></h3>
+            <p>Efficient and self motivated who works under pressure and posses </p>
+            <p>employee/customer relations skills with a broad knowledge of diversified </p>
+            <p>administrative duties. Implementing and following up plans/activities to achieve </p>
+            <p>agency goals with the capability of meeting deadlines. Creative </p>
+            <p>problem solving and a team work player with high communications skills.</p>
+            <br>
+            <br>
+            <br>
+
         </div>
+        <!-- the bottom bar -->
+        <nav id="nav" class="col s4 offset-s8">
+            <a class="nav-link1" href="career.html"><i class="medium material-icons">school</i></a>
+            <a class="nav-link2" href="emailme.html"><i class="medium material-icons">email</i></a>
+            <a class="nav-link3" href="mywork.html"><i class="medium material-icons">work</i></a>
+        </nav>
+
     </div>
 </body>
+
 </html>
