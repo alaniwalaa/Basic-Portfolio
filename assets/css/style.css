@@ -11,6 +11,9 @@ body {
     background-position: center;
     background-repeat: no-repeat;
 }
+body.background-image {
+    opacity: 0.1;
+}
 
 .headline {
     font-family: 'Kalam';
@@ -37,7 +40,7 @@ body {
     position: relative;
     width: 30%;
     float: right;
-
+    margin-top: 10%;
 }
 
 .nav-link1 {
